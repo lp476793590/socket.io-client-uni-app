@@ -13,7 +13,7 @@ uniapp上使用的socket.io-client
 import io from 'socket.io-client-uni-app'
 
 
-		this.socketio = io('wss://d.bzbch.com');
+		this.socketio = io('wss://***.****.com');
 		// 连接成功
 		this.socketio.on('connect', () => {
 			console.log('连接成功');
