@@ -10,6 +10,9 @@ uniapp上使用的socket.io-client
 1，握手强制使用websocket协议
 2，websocket连接、发送数据等使用uniapp内置websocket代替
 
+NPM下载:
+ npm i socket.io-client-uni-app
+
 import io from 'socket.io-client-uni-app'
 
 
